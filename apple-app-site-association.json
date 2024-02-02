@@ -1,0 +1,11 @@
+{
+    "applinks": {
+        "apps": [],
+        "details": [
+            {
+                "appID": "app_identifier_without_team_id",
+                "paths": [ "*" ]
+            }
+        ]
+    }
+}
