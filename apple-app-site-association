@@ -3,8 +3,15 @@
     "apps": [],
     "details": [
       {
-        "appID": "br.com.usezapay.app",
-        "paths": ["/*"]
+        "appIDs": [
+          "br.com.usezapay.app"
+        ],
+        "components": [
+          {
+            "/": "*",
+            "comment": "Matches URL with a path /login"
+          }
+        ]
       }
     ]
   }
