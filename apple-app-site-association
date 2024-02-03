@@ -1,33 +1,11 @@
 {
   "applinks": {
-      "details": [
-           {
-             "appIDs": [ "br.com.usezapay.app"],
-             "components": [
-               {
-                  "#": "no_universal_links",
-                  "exclude": true,
-                  "comment": "Matches any URL with a fragment that equals no_universal_links and instructs the system not to open it as a universal link."
-               },
-               {
-                  "/": "/test/*",
-                  "comment": "Matches any URL with a path that starts with /buy/."
-               },
-               {
-                  "/": "/help/website/*",
-                  "exclude": true,
-                  "comment": "Matches any URL with a path that starts with /help/website/ and instructs the system not to open it as a universal link."
-               },
-               {
-                  "/": "/help/*",
-                  "?": { "articleNumber": "????" },
-                  "comment": "Matches any URL with a path that starts with /help/ and that has a query item with name 'articleNumber' and a value of exactly four characters."
-               }
-             ]
-           }
-       ]
-   },
-   "webcredentials": {
-      "apps": [ "br.com.usezapay.app" ]
-   },
+    "apps": [],
+    "details": [
+      {
+        "appID": "br.com.usezapay.app",
+        "paths": ["*"]
+      }
+    ]
+  }
 }
