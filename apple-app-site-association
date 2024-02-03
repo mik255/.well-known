@@ -6,6 +6,7 @@
         "appIDs": [
           "br.com.usezapay.app"
         ],
+"paths": [ "*" ],
         "components": [
           {
             "/": "*",
